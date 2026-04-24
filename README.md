@@ -6,3 +6,5 @@
 > minesweeper and mathsurface dont work same as no noclip overlay
 
 **mods required:** [Meteor Client](https://meteorclient.com/), [Litematica](https://modrinth.com/mod/litematica/versions), [MaLiLib](https://modrinth.com/mod/malilib/versions)
+
+<sub> ignore crash commands please they dont work at all <sub>
