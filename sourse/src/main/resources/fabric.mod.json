@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "adams-mp-mod",
+  "version": "1.0.0",
+  "name": "adams-MP-mod",
+  "description": "This is an example description! Tell everyone what your mod is about!",
+  "authors": [
+    "Me!"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+  "license": "CC0-1.0",
+  "icon": "assets/adams-mp-mod/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "com.adammp.AdamsMPmod"
+    ],
+    "meteor": [
+      "com.adammp.AdamsMPmodClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": "\u003e\u003d0.16.2",
+    "minecraft": "~1.21.4",
+    "java": "\u003e\u003d21",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "another-mod": "*"
+  },
+  "jars": [
+    {
+      "file": "META-INF/jars/exp4j-0.4.8.jar"
+    }
+  ]
+}
